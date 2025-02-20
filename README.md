@@ -1,10 +1,10 @@
-## Análise de Classificação com Redes Neurais e Métricas de Avaliação
+# Análise de Classificação com Redes Neurais e Métricas de Avaliação
 
-# Descrição
+## Descrição
 
 Este projeto implementa uma rede neural para classificação de imagens e calcula métricas de desempenho, incluindo matriz de confusão, sensibilidade (recall), especificidade, precisão e F1-score. O modelo é treinado em um conjunto de dados de imagens e avaliado com base em previsões feitas sobre um conjunto de teste.
 
-# Estrutura do Código
+## Estrutura do Código
 
 1.  Pré-processamento dos dados:
 
@@ -23,7 +23,7 @@ Este projeto implementa uma rede neural para classificação de imagens e calcul
 *  Calcula e exibe as métricas de desempenho.
 
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Python 3
 TensorFlow/Keras
@@ -33,7 +33,7 @@ Matplotlib
 Seaborn
 Scikit-learn
 
-# Como Executar
+## Como Executar
 
 Instale as dependências necessárias:
 
@@ -47,7 +47,7 @@ Execute o script Python:
 python nome_do_arquivo.py
 ```
 
-# Métricas Implementadas
+## Métricas Implementadas
 
 1. Matriz de Confusão
 
@@ -87,7 +87,7 @@ Equilíbrio entre precisão e recall:
 f1 = f1_score(test_labels, y_pred, average='macro')
 ```
 
-# Visualização
+## Visualização
 
 A matriz de confusão é representada graficamente usando Seaborn:
 
@@ -95,7 +95,7 @@ A matriz de confusão é representada graficamente usando Seaborn:
 sns.heatmap(con_mat_df, annot=True, cmap=plt.cm.Blues)
 ```
 
-# Contribuições
+## Contribuições
 
 Sinta-se à vontade para sugerir melhorias ou relatar problemas criando uma issue ou um pull request neste repositório.
 
